@@ -10,7 +10,6 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 warnings.filterwarnings('ignore')
 
-# Fix for numpy._core issue - MUST be at the top
 if not hasattr(np, '_core'):
     np._core = np.core
 
